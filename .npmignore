@@ -1,0 +1,8 @@
+lib/*.spec.js
+config.jest.json
+.travis.yml
+README.md
+coverage
+eslintrc
+.gitignore
+.git

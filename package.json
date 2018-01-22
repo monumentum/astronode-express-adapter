@@ -1,0 +1,41 @@
+{
+  "name": "astronode-express-plugin",
+  "version": "1.0.0",
+  "description": "Astronode Plugin to implement Express Web Engine",
+  "main": "lib/express.js",
+  "scripts": {
+    "test": "jest --config config.jest.json --coverage",
+    "test:dev": "jest --config config.jest.json --watch",
+    "lint": "eslint --config .eslintrc src",
+    "lint:fix": "eslint --config .eslintrc src --fix",
+    "coveralls": "cat coverage/lcov.info | coveralls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monumentum/astronode-express-plugin.git"
+  },
+  "keywords": [
+    "express",
+    "body-parser",
+    "node",
+    "es6",
+    "astronode",
+    "astrostack",
+    "plugin"
+  ],
+  "author": "Guilherme Diego <guilherme@monumentum.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/monumentum/astronode-express-plugin/issues"
+  },
+  "homepage": "https://github.com/monumentum/astronode-express-plugin#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "coveralls": "^3.0.0",
+    "eslint": "^4.16.0",
+    "jest": "^22.1.4"
+  }
+}
