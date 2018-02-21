@@ -1,6 +1,6 @@
 {
   "name": "astronode-express-plugin",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Astronode Plugin to implement Express Web Engine",
   "main": "lib/express.js",
   "scripts": {
